@@ -1,0 +1,29 @@
+.sec1{
+            background: linear-gradient(#dfb015,#b9e92a); border-style: double;border-color: aqua;
+        }
+        #p1{
+            background: linear-gradient(rgb(15, 75, 187),rgb(202, 24, 190));padding: 10px;border-radius: 20px;margin: 7pxx;
+        }
+        .skills{
+            padding: 80px 0;
+        }
+        .skills-grid{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .skill-card{
+            background-color: antiquewhite;
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(red, green, blue, alpha);
+            transition: transform o.3s ease;
+        }
+        .skill-card h3{
+            margin-bottom: 10px;
+            color: aquamarine;
+        }
+            
+        
