@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 10px;
+    background:linear-gradient(pink,#ffff);
+
+}
+.nav-tools{
+    text-decoration: none;
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 30px;
+    font-family: cursive;
+    color:black;
+}
+.nav-tools li a {
+    text-decoration: none;
+    color:black;
+}
+.nav-tools li a:hover{
+    color: bisque;
+    background-color: rgb(56, 78, 78);
+}
+#home{
+    background-color: rgb(213, 213, 161);
+    height: 500px;
+    font-weight: 800;
+    font-size: 100px;
+    font-family:Orbitron;
+
+    
+    
+}
+#about{
+    background-color: rgb(205, 201, 162);
+    height: 300px;
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+
+#contact{
+    background-color: antiquewhite;
+    color: rgb(19, 26, 24);
+    height:40px;
+    font-size: 20px;
+
+}
+.navbar{
+    font-family: cursive;
+    font-size: 30px;
+}
+img{
+    height: 60px;
+}
+#footer{
+        background:linear-gradient(pink,#ffff);
+        height:20px;
+
+}
+#contact1{       
+     background:linear-gradient(rgb(155, 60, 76),#ffff);
+height: 70px;
+    
+}
+
+
+
